@@ -19,7 +19,7 @@ public class OfertaViagemDalAdicionar
 
     private OfertaViagem CriaOfertaViagem()
     {
-        Rota rota = new Rota("São Paulo", "Fortaleza");
+        Rota rota = new Rota("Recife", "São Paulo");
         Periodo periodo = new Periodo(new DateTime(2024, 8, 20), new DateTime(2024, 8, 30));
         double preco = 350;
 
